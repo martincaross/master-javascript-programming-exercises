@@ -1,5 +1,11 @@
 function getAllKeys(obj) {
   // your code here
+  let array = [];
+  for (let e in obj) {
+    array.push(e)
+    
+  }
+  return array;
   
 }
 

@@ -1,5 +1,7 @@
 function removeFromBack(arr) {
     // your code here
+     arr.pop(arr.length)
+    return arr
     
 }
 

@@ -1,5 +1,8 @@
 function calculateBillTotal(preTaxAndTipAmount) {
     // your code here
+    propina = preTaxAndTipAmount*0.15 
+    ventas = preTaxAndTipAmount*0.095 
+    return post = propina + ventas +preTaxAndTipAmount
     
 }
 
